@@ -20,5 +20,5 @@ while True:
             print(f"{lugares} lugares vendidos")
 print("Utilização das salas")
 for x, l in enumerate(lugaresVazios):
-    print(f"Sala {x + 1} - {l} lugar(es) vazios(s)")
+    print(f"Sala {x + 1} - {l} lugar(es) vazio(s)")
 

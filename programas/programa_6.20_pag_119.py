@@ -6,7 +6,7 @@ while fim > 1:  # enquanto o fim for maior que um
     trocou = False # inicializa
     x = 0 # inicializa um contador
     while x < (fim - 1): # enquanto x for menor que 4
-        if l[x] > l[x + 1]: # se o numero atual for maior que o posterior
+        if l[x] < l[x + 1]: # se o numero atual for maior que o posterior
             trocou = True # a variável inicializada anteriormente recebe verdadeiro
             temp = l[x] # não entendi
             l[x] = l[x + 1] # não entendi
